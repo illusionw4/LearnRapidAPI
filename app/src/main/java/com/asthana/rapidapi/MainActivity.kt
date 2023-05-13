@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val apiKey = "15f06eade8msh90e849502ef3bb6p17b9e4jsnbf8cf07e80db"
+        val apiKey = "YOURAPIKEY"
 
         recyclerView = binding.recyclerview
         recyclerView.layoutManager = LinearLayoutManager(this)
